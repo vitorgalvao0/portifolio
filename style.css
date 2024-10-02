@@ -17,6 +17,11 @@ h1, h2, p, ul {
     list-style: none;
 }
 
+h1,h2,h3{
+    text-align: center;
+}
+
+
 main {
     width: 70vw;
     margin: 0 auto
@@ -69,11 +74,11 @@ a:-webkit-any-link{
     color: unset;
 }
 
-.redes-social {
-    color: #9b9997;
+.rede-social a {
+    color: #c77d32;
     display: flex;
     justify-content: center;
-    grid-gap: 10px;
+    grid-gap: 15px;
     
 }
 
