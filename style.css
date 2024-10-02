@@ -1,0 +1,94 @@
+/* 
+#181C14
+#3C3D37
+#697565
+#ECDFCC
+ */
+ body {
+    font-family:"Mukta", sans-serif;;
+    font-size: 14px;
+    color: #b9c1b0aa;
+    background-color: #181C14 ;
+}
+
+h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+main {
+    width: 70vw;
+    margin: 0 auto
+}
+
+section {
+    padding: 20px 0;
+}
+
+figure {
+    max-width: 160px;
+    max-height: 160px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    grid-gap: 10px;
+}
+
+.card {
+    width: 160px;
+    padding: 10px;
+    border: 1px solid #6f00ff;
+    border-radius: 6px;
+}
+
+.card ul li {
+    margin-bottom: 6px;
+}
+
+a:-webkit-any-link{
+    color: unset;
+}
+
+.redes-social {
+    color: #9b9997;
+    display: flex;
+    justify-content: center;
+    grid-gap: 10px;
+    
+}
+
+@media(max-width: 690px){
+    body{
+        color: #546444;
+        background-color: rgb(18, 11, 46);
+    }
+
+    main{
+        width: 90vw;
+        margin: auto;
+    }
+
+    
+
+
+}
